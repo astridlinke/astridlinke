@@ -1,0 +1,16 @@
+body{
+    image-rendering: ;
+}
+#uudised {
+    width: 600px;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+.uudis{
+    
+}
