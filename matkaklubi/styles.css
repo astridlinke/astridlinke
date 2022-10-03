@@ -1,0 +1,203 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color:black;
+    overflow-x: hidden;
+}
+
+.pais{
+    background-image: url("assets/Hills.png");
+    height: 778px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 80px;   
+}
+
+.pais>nav{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.logo{
+    text-decoration: none;
+    display:flex ;
+}
+
+.logo-pilt{
+    height: 64px;
+}
+
+.logo-tekst{
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+}
+
+.parem-pool{
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2.67px;
+    display:flex;
+    align-items: center;
+
+}
+
+.parem-pool>a{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.pais>.alumine{
+display: flex;
+justify-content: space-between;
+}
+
+.pais>.alumine>.sisu{
+    margin-top: 230px;
+    
+}
+
+h1,
+h2, 
+h4 {
+    font-weight: 800;
+    letter-spacing: 0;
+    color:#0B0B0B;
+    line-height:0%;
+        
+}
+
+button{
+    background-color: #0B0B0B; /* Black */
+  border: none;
+  height: 58px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 800;
+  width: 250px;
+  letter-spacing: 2.25px;
+}
+  
+.pais>.alumine>.sisu>.ikoon1{
+    background-image: url("assets/Butterfly@2x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 66px;  
+    height: 75px;
+    margin-left: 571px; 
+    margin-bottom: -50px;   
+    }
+
+.pais>.alumine>.sisu>h2{
+    font-size: 40px;    
+}
+
+.pais>.alumine>.sisu>.ikoon2{
+    background-image: url("assets/sinineliblikas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;      
+    height: 32px;
+    width: 60px;
+    margin-left: -40px;
+    margin-bottom: -55px;
+     
+}
+
+.pais>.alumine>.sisu>h1{
+    font-size: 74px;
+}
+
+.pais>.alumine>.sisu>h4{
+    font-size: 21px;
+}
+
+.pais>.alumine>.pilt {
+    background-image: url("assets/matkaja.png");
+    height: 915px;
+    width:915px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 80px;
+    margin-right: -300px;
+    border-radius: 500px;
+    box-shadow: -2px 5px 14px 1px #4E4C4C;
+  }
+
+  .pais>.alumine>.sisu>.vasak-pool{
+    display: flex;
+  }
+
+  .vasak-pool{
+    font-size: 54.17px;
+    font-weight: 800;
+    letter-spacing: 0;
+    color:#0B0B0B;
+    width: 1795px;
+    height: 611.18;
+    margin-left: 77.5px;
+    position:relative;    
+    top: -200px;     
+  }
+
+  .tekst{
+    font-size: 20.38px;    
+    font-weight: 400;
+    color:black;  
+    width: 449px;
+    padding-top: 47px;    
+    position:absolute;
+    top: 500px;
+    margin-top: -300px;      
+  } 
+  
+  .vasak-pool>.kiri>h5{
+    color: #a2a2a2;
+    font-weight: 800;
+  }
+
+  .vasak-pool>.kiri>h6{
+    color:black;
+    font-weight: 800;
+  }
+
+  .piltide-konteiner{
+    height: 406px;
+    width: 309px;
+    display: flex;       
+    gap:34px;
+    float: right;
+    padding-left: 70px;    
+    margin-right: 500px;
+    margin-top: -250px;
+         
+}
+
+img.tüdruk {
+    height: 406px;
+    width: 309px;
+    box-shadow: -2px 5px 14px 1px #4E4C4C;
+}
+
+
+    
+
+    
+
+
+  
