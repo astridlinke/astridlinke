@@ -46,7 +46,6 @@ body{
     letter-spacing: 2.67px;
     display:flex;
     align-items: center;
-
 }
 
 .parem-pool>a{
@@ -62,7 +61,6 @@ justify-content: space-between;
 
 .pais>.alumine>.sisu{
     margin-top: 230px;
-    
 }
 
 h1,
@@ -72,7 +70,6 @@ h4 {
     letter-spacing: 0;
     color:#0B0B0B;
     line-height:0%;
-        
 }
 
 button{
@@ -98,7 +95,7 @@ button{
     height: 75px;
     margin-left: 571px; 
     margin-bottom: -50px;   
-    }
+}
 
 .pais>.alumine>.sisu>h2{
     font-size: 40px;    
@@ -113,7 +110,6 @@ button{
     width: 60px;
     margin-left: -40px;
     margin-bottom: -55px;
-     
 }
 
 .pais>.alumine>.sisu>h1{
@@ -139,65 +135,167 @@ button{
     box-shadow: -2px 5px 14px 1px #4E4C4C;
   }
 
-  .pais>.alumine>.sisu>.vasak-pool{
+  .teine{
+    padding-left: 80px;
+    margin-top: 120px;
+  }
+
+  .teine>.ylemine>h5.hall{
+    color:grey;
+    text-transform: uppercase;
+    font-size: 42px;
+  }
+
+  .teine>.ylemine>h5{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 58.33px;
+    margin:0;
+    max-width: 500px;
+  }
+
+  .teine>.alumine{
     display: flex;
-  }
-
-  .vasak-pool{
-    font-size: 54.17px;
-    font-weight: 800;
-    letter-spacing: 0;
-    color:#0B0B0B;
-    width: 1795px;
-    height: 611.18;
-    margin-left: 77.5px;
-    position:relative;    
-    top: -200px;     
-  }
-
-  .tekst{
-    font-size: 20.38px;    
-    font-weight: 400;
-    color:black;  
-    width: 449px;
-    padding-top: 47px;    
-    position:absolute;
-    top: 500px;
-    margin-top: -300px;      
-  } 
-  
-  .vasak-pool>.kiri>h5{
-    color: #a2a2a2;
-    font-weight: 800;
-  }
-
-  .vasak-pool>.kiri>h6{
-    color:black;
-    font-weight: 800;
-  }
-
-  .piltide-konteiner{
-    height: 406px;
-    width: 309px;
-    display: flex;       
     gap:34px;
-    float: right;
-    padding-left: 70px;    
-    margin-right: 500px;
-    margin-top: -250px;
-         
+    justify-content: space-between;    
+  }
+
+  .teine>.alumine>.vasak{
+    display:flex;
+    flex-direction: column; 
+    max-width: 500px; 
+    margin-top: 25px; 
+  }
+
+  .teine>.alumine>.vasak>section{
+
+    letter-spacing: 0px;
+    color:grey;
+    font-size:21px;
+    line-height:33px;
+    margin-bottom: 150px;
+  }     
+   
+  
+  .teine>.alumine>.vasak>.nooled{
+    font-size: 50px;
+    margin-bottom: 100px;
+    display: flex; 
+    align-items: center;
+    margin-top: 150px;   
+  }
+
+  .nooled>.vasak, 
+  .nooled>.parem{
+    font-size: 72px;
+  }
+
+  .nooled>.lehekylg{
+    margin: 0 10px;
+  }
+
+  .nooled>.kokku-lehekylgi,
+  .nooled>.parem{
+    color: grey;
+  }
+
+  .nooled>.kokku-lehekylgi{
+    font-size: 36px;
+    margin-top: 4px;
+  }
+  .teine>.alumine>.parem{
+    display: flex;
+    margin-top: 25px;
+    margin-right: -150px;
+  }
+
+  .teine>.alumine>.parem>.pilt{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:406px;
+   width: 309px;
+   margin-left: 34px;
+  }
+
+  .teine>.alumine>.parem>.pilt1{
+   background-image: url("assets/Layer@2x.png");
+   box-shadow: 28px 29px 199px, -16px #4E4C4C;
+  }
+
+  .teine>.alumine>.parem>.pilt2{
+    background-image: url("assets/Noormees.png");
+  }
+
+.teine>.alumine>.parem>.pilt3{
+    background-image: url("assets/Kaart.png"); 
 }
 
-img.tüdruk {
-    height: 406px;
-    width: 309px;
-    box-shadow: -2px 5px 14px 1px #4E4C4C;
+
+.footer>nav{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-
+.footer {  
+    background-color:#F3F3F3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:276px;
+    width: 1327px;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right:50px;
     
+}
 
-    
+.button1 {
+    background-color:black; 
+    color: white;
+    margin-top: 45px;
+    font-size: 22px;
+    width: 170px;
+    height: 28px;
+}
+  
+.button2 {
+    background-color:black; 
+    color: white;
+    margin-top: 2px;
+    font-size: 32px;
+    text-align:center;
+    width: 280px;
+    height: 40px;
+}
 
-
+.footer-basic .social {
+    text-align:right;
+    margin-top: -50px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:35px;
+    height:35px;
+    line-height:30px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    background-color: #0B0B0B;
+    margin:0 8px;
+    color:white;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic> .alltekst{      
+   margin-top: -30px;
+   margin-left: 600px;
+  }
+   
   
