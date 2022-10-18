@@ -1,69 +1,60 @@
-let inputElement = document.querySelector (`imput`);
+let inputElement = document.querySelector (`input`);
 let todoListElement= document.querySelector (`.todo-list`);
 
-let todos= [
-    {
-       id:0,
-       text:`pese hambaid`,
-       isDone: false,
-    
-    },
+let index = 0
+let todos=[];
 
-    {
-        id:1,
-        text:`mine tööle`,
-        isDone: true,
-     
-     },
-]
-
-funktsion toggleIsDone (id){
-    console.log (id);
-    for (let i=0; 0<todos.length; i++){
-       if(todos[i].id==id){
-        todos [i].isDone =!todos[i].isDone;
-       }
+function toggleIsDone(id) {
+    for (let i=0; i < todos.length; i++) {
+        if (todos[i].id == id) {
+            todos[i].isDone = !todos[i].isDone;
+        }
     }
 
-    renderTodos ();
+    renderTodos();
 }
 
-function deleteTodo(id){
-    console.log (id);
-    //todo kustutatakse ja list renderdatakse uuesti
+function deleteTodo(event, id) {
+    event.stopPropagation();
+    for (let i=0; i < todos.length; i++){
+        if(todos[i].id == id) {
+            todos.splice (i, 1);
+        }
+    }
+    renderTodos();
 }
 
-functsion renderTodos(){
+function renderTodos(){
     todoListElement.innerHTML=` `;
-    for (let i=0; 0<todos.length; i++){
-        let klassid= `todo`;
+    for (let i=0; i < todos.length; i++) {
+        let klassid = `todo`;
         if (todos[i].isDone){
-        klassid+= `done`;
+            klassid += `done`;
         }
         todoListElement.innerHTML += `
         <div 
-            class= ` ${klassid}`
-            onclick="toggleIsDone"(${todos[i].id})"
+            class= "${klassid}"
+            onclick="toggleIsDone(${todos[i].id})"
         > 
             ${todos [i].text}
-            <span onclick="deleteTodo (${todos[i].id})">[x]</span> 
+            <span onclick="deleteTodo(event, ${todos[i].id})">[x]</span> 
         <div/>`
     }
-    console.log (todos);
 }
-inputElement.addEventListener("keypress", function(event) {
+
+inputElement.addEventListener("keypress", function (event) {
    
     if (event.key === "Enter"){
-     todos.push ({
-        id:todoListElement.length,
-        text:inputElement.value,
-        isDone: falce,
+     todos.push({
+        id: index++,
+        text: inputElement.value,
+        isDone: false,
      
      });
 
      inputElement.value = ` `;
-     renderTodos{};
+     renderTodos();
     }
-}
+});
 
-render.Todos();
+renderTodos();
